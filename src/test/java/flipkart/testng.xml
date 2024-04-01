@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlipkartSuite">
+    <test name="FlipKartAutomation">
+        <parameter name="textToSearch1" value="Washing Machine" />
+        <parameter name="FilterName1" value="Popularity" />
+        <parameter name="textToSearch2" value="Iphone" />
+        <parameter name="discountPercent" value="17" />
+        <parameter name="textToSearch3" value="Coffee Mug" />
+        <classes>
+            <class name="flipkart.TestCases"/>
+        </classes>
+
+    </test>
+</suite>
